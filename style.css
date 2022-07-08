@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Searchbar{
+    font-size: 44pxx;
+}
+.bannerr{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(contact-us-concept-icons-such-as-mobile-phone-e-mail-address-chat-global-communication-on-dark-blue-background-for-presentation-web-banner-article-business-and-network-connection-and-company-fre.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerrr{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(admission.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.admissionbar{
+    font-size:20px;
+    text-align: center;
+    color: white;l
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar img{
+    border-radius: 50%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #acb461;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.btn{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #acb461;
+    background: transparent;
+    color: #f6f7ef;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #acb461;
+    height: 100px;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.btn:hover span{
+    width: 100%;
+}
+.btn:hover{
+    border: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(contact-us-concept-icons-such-as-mobile-phone-e-mail-address-chat-global-communication-on-dark-blue-background-for-presentation-web-banner-article-business-and-network-connection-and-company-fre.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid#fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid#fff;
+    width: 100%;
+    cursor: pointer;
+
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label
+{
+    top: -35px;
+    font: 14px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+    .hero2{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(admission.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-group{
+        margin-bottom: 30px;
+        position: relative;
+    }
+    input, textarea{
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid#fff;
+        color: #fff;
+        background: transparent;
+        font-size: 15px;
+    }
+    label{
+        height: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        color: #fff;
+        cursor: text;
+        transition: 0.2s;
+    }
+    button{
+        padding: 10px 0;
+        color: #fff;
+        outline: none;
+        background: transparent;
+        border: 1px solid#fff;
+        width: 100%;
+        cursor: pointer;
+    
+    }
+    input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label
+    {
+        top: -35px;
+        font: 14px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .row .input-group{
+        flex-basis: 48%;
+    }
+    .content1{
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+    }
+    .content1 h3{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .content1 p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 20px;
+    }
+
+
+
+
+
+
+   /* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
